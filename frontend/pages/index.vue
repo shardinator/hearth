@@ -37,14 +37,14 @@
               <div class="facilities-title">Facilities</div>
               
               <div class="facility-item">
-                <h3 class="facility-name">Meals</h3>
+                <div class="facility-name">Meals</div>
                 <div class="facility-description">
                   Low cost healthy meals for breakfast, lunch as well as dinner.
                 </div>
               </div>
               
               <div class="facility-item">
-                <h3 class="facility-name">Cubbies</h3>
+                <div class="facility-name">Cubbies</div>
                 <div class="facility-description">
                   Small hotel style rest spaces that include:
                 </div>
@@ -57,7 +57,7 @@
               </div>
               
               <div class="facility-item">
-                <h3 class="facility-name">Lounges</h3>
+                <div class="facility-name">Lounges</div>
                 <div class="facility-description">
                   Spaces to rest and relax, as well as read. A selection of books and 
                   periodicals will be available.
@@ -65,14 +65,14 @@
               </div>
               
               <div class="facility-item">
-                <h3 class="facility-name">CoWorking</h3>
+                <div class="facility-name">CoWorking</div>
                 <div class="facility-description">
                   Desks and spaces for work or study.
                 </div>
               </div>
               
               <div class="facility-item">
-                <h3 class="facility-name">Storage</h3>
+                <div class="facility-name">Storage</div>
                 <div class="facility-description">
                   Additional place to keep extra personal items if they don't fit in 
                   the cubby's storage space.
@@ -215,7 +215,6 @@
   
   .facility-name {
     font-size: 22px;
-    font-weight: bold;
     margin-bottom: 0.5rem;
     color: rgba(121, 2, 255, 1);
   }
