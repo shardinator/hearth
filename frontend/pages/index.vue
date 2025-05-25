@@ -93,6 +93,17 @@
   export default {
     name: 'HearthHome',
     mounted() {
+        // Remove any existing favicon
+        const existingFavicon = document.querySelector('link[rel="icon"]') || 
+                            document.querySelector('link[rel="shortcut icon"]');
+        if (existingFavicon) {
+        existingFavicon.remove();
+        }        
+        // Set empty favicon to prevent browser from looking for one
+        const link = document.createElement('link');
+        link.rel = 'icon';
+        link.href = 'data:,';
+        document.head.appendChild(link);
         document.title = 'Hearth | Space to Rest';
     },
     data() {
