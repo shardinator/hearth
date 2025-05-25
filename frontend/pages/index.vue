@@ -21,7 +21,8 @@
         
         <p class="feature-text">
           A key feature is that if residents don't have money to pay the fees they 
-          can use the Lendy Pay system to pay for as many meals and days of 
+          can use the <a href='http://lendy.me' target="_blank">Lendy Pay</a> 
+          system to pay for as many meals and days of 
           accommodation as they need/want.
         </p>
 
