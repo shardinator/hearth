@@ -29,13 +29,65 @@
           This means that anyone can afford to stay at a Hearth space and this has 
           a meaningful impact on addressing housing shortages and hunger.
         </p>
-        
-        <!-- Additional content blocks -->
-        <div class="builder-blocks">
-          <div class="builder-block"></div>
-          <div class="builder-block"></div>
-          <div class="builder-block"></div>
-          <div class="builder-block"></div>
+  
+        <!-- Facilities Section -->
+        <div class="facilities-section">
+          <div class="facilities-content">
+            <div class="facilities-text">
+              <h2 class="facilities-title">Facilities</h2>
+              
+              <div class="facility-item">
+                <h3 class="facility-name">Meals</h3>
+                <p class="facility-description">
+                  Low cost healthy meals for breakfast, lunch as well as dinner.
+                </p>
+              </div>
+              
+              <div class="facility-item">
+                <h3 class="facility-name">Cubbies</h3>
+                <p class="facility-description">
+                  Small hotel style rest spaces that include:
+                </p>
+                <ul class="facility-features">
+                  <li>Single bed</li>
+                  <li>Toilet, shower, sink</li>
+                  <li>Storage space</li>
+                  <li>Desk</li>
+                </ul>
+              </div>
+              
+              <div class="facility-item">
+                <h3 class="facility-name">Lounges</h3>
+                <p class="facility-description">
+                  Spaces to rest and relax, as well as read. A selection of books and 
+                  periodicals will be available.
+                </p>
+              </div>
+              
+              <div class="facility-item">
+                <h3 class="facility-name">CoWorking</h3>
+                <p class="facility-description">
+                  Desks and spaces for work or study.
+                </p>
+              </div>
+              
+              <div class="facility-item">
+                <h3 class="facility-name">Storage</h3>
+                <p class="facility-description">
+                  Additional place to keep extra personal items if they don't fit in 
+                  the cubby's storage space.
+                </p>
+              </div>
+            </div>
+            
+            <div class="facilities-image">
+              <img 
+                src="/images/Hearth_Space__Smaller.png"
+                alt="Hearth Space Interior"
+                class="space-image"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -71,6 +123,7 @@
     --gjs-t-color-error: #dc3545;
   }
   
+  /* Main container */
   .hearth-home {
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,10 +136,7 @@
   /* Logo styles */
   .logo {
     color: black;
-    margin-top: 50px;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-left: 10%;
+    margin: 50px 10% 0 10%;
     width: 40%;
     display: block;
   }
@@ -97,22 +147,17 @@
   }
   
   .main-title {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10% 0 10%;
     color: rgba(121, 2, 255, 1);
     font-size: 52px;
     width: 80%;
-    margin-bottom: 0px;
     font-weight: normal;
   }
   
   /* Content section */
   .content-section {
     padding: 10px;
-    margin-top: 50px;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
+    margin: 20px 10% 10% 10%;
     font-size: 18px;
     color: rgba(65, 65, 65, 1);
   }
@@ -124,17 +169,78 @@
     line-height: 1.6;
   }
   
-  /* Builder blocks */
-  .builder-blocks {
-    margin-top: 20px;
-    margin-right: 10%;
-    margin-bottom: 0px;
-    margin-left: 10%;
+  /* Facilities section */
+  .facilities-section {
+    width: 80%;
+    margin: 0 10%;
   }
   
-  .builder-block {
-    margin-bottom: 10px;
-    min-height: 20px;
+  .facilities-content {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+  }
+  
+  .facilities-text {
+    flex-basis: 73.39%;
+    width: 80%;
+    padding: 10px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+  
+  .facilities-image {
+    flex-basis: 26.61%;
+    width: 20%;
+    flex-grow: 1;
+  }
+  
+  .facilities-title {
+    color: rgba(2, 102, 255, 1);
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .facility-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .facility-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .facility-description {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  .facility-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .facility-features li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .facility-features li::before {
+    content: '⏩';
+    position: absolute;
+    left: 0;
+  }
+  
+  .space-image {
+    color: black;
+    width: 265px;
+    height: 449px;
+    max-width: 100%;
+    height: auto;
   }
   
   /* Theme classes for potential future use */
@@ -188,6 +294,21 @@
       margin-left: 5%;
       margin-right: 5%;
       font-size: 16px;
+    }
+    
+    .facilities-content {
+      flex-direction: column;
+    }
+    
+    .facilities-text,
+    .facilities-image {
+      width: 100%;
+      flex-basis: auto;
+    }
+    
+    .space-image {
+      width: 100%;
+      height: auto;
     }
   }
   </style>
