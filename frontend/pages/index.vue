@@ -92,6 +92,9 @@
   <script>
   export default {
     name: 'HearthHome',
+    mounted() {
+        document.title = 'Hearth | Space to Rest';
+    },
     data() {
       return {
         // Add any reactive data here if needed
