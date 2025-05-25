@@ -3,7 +3,7 @@
       <!-- Logo -->
       <img 
         class="logo" 
-        src="/images/hearth_logo__left__balloons.png" 
+        src="/images/Hearth_Logo__Left__Balloons.png" 
         alt="Hearth Logo"
       />
       
