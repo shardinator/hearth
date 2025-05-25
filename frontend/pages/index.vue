@@ -24,30 +24,30 @@
           can use the Lendy Pay system to pay for as many meals and days of 
           accommodation as they need/want.
         </p>
-        
+
         <p class="impact-text">
           This means that anyone can afford to stay at a Hearth space and this has 
           a meaningful impact on addressing housing shortages and hunger.
-        </p>
-  
-        <!-- Facilities Section -->
-        <div class="facilities-section">
+        </p>  
+      </div>      
+      <!-- Facilities Section -->
+      <div class="facilities-section">
           <div class="facilities-content">
             <div class="facilities-text">
-              <h2 class="facilities-title">Facilities</h2>
+              <div class="facilities-title">Facilities</div>
               
               <div class="facility-item">
                 <h3 class="facility-name">Meals</h3>
-                <p class="facility-description">
+                <div class="facility-description">
                   Low cost healthy meals for breakfast, lunch as well as dinner.
-                </p>
+                </div>
               </div>
               
               <div class="facility-item">
                 <h3 class="facility-name">Cubbies</h3>
-                <p class="facility-description">
+                <div class="facility-description">
                   Small hotel style rest spaces that include:
-                </p>
+                </div>
                 <ul class="facility-features">
                   <li>Single bed</li>
                   <li>Toilet, shower, sink</li>
@@ -58,38 +58,34 @@
               
               <div class="facility-item">
                 <h3 class="facility-name">Lounges</h3>
-                <p class="facility-description">
+                <div class="facility-description">
                   Spaces to rest and relax, as well as read. A selection of books and 
                   periodicals will be available.
-                </p>
+                </div>
               </div>
               
               <div class="facility-item">
                 <h3 class="facility-name">CoWorking</h3>
-                <p class="facility-description">
+                <div class="facility-description">
                   Desks and spaces for work or study.
-                </p>
+                </div>
               </div>
               
               <div class="facility-item">
                 <h3 class="facility-name">Storage</h3>
-                <p class="facility-description">
+                <div class="facility-description">
                   Additional place to keep extra personal items if they don't fit in 
                   the cubby's storage space.
-                </p>
+                </div>
               </div>
             </div>
             
             <div class="facilities-image">
-              <img 
-                src="/images/Hearth_Space__Smaller.png"
-                alt="Hearth Space Interior"
-                class="space-image"
-              />
+              <img src="/images/Hearth_Space__Smaller.png"
+                alt="Hearth Space Interior" class="space-image"/>
             </div>
           </div>
-        </div>
-      </div>
+        </div>  
     </div>
   </template>
   
@@ -157,14 +153,13 @@
   /* Content section */
   .content-section {
     padding: 10px;
-    margin: 20px 10% 10% 10%;
+    margin: 20px 10% 0 10%;
     font-size: 18px;
     color: rgba(65, 65, 65, 1);
   }
   
   .intro-text,
-  .feature-text,
-  .impact-text {
+  .feature-text {
     margin-bottom: 1rem;
     line-height: 1.6;
   }
@@ -189,8 +184,7 @@
     font-size: 18px;
   }
   
-  .facilities-image {
-    flex-basis: 26.61%;
+  .facilities-image {    
     width: 20%;
     flex-grow: 1;
   }
@@ -294,6 +288,11 @@
       margin-left: 5%;
       margin-right: 5%;
       font-size: 16px;
+    }
+
+    .facilities-section{
+      margin-left: 5%;
+      margin-right: 5%;
     }
     
     .facilities-content {
