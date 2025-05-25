@@ -169,7 +169,7 @@
     padding: 10px;
     margin: 20px 10% 0 10%;
     font-size: 18px;
-    color: rgba(65, 65, 65, 1);
+    color: #333;
   }
   
   .intro-text,
@@ -191,10 +191,10 @@
   }
   
   .facilities-text {
-    flex-basis: 73.39%;
+    flex-basis: 70%;
     width: 80%;
     padding: 10px;
-    color: rgba(0, 0, 0, 1);
+    color: #333;
     font-size: 18px;
   }
   
@@ -317,6 +317,10 @@
     .facilities-image {
       width: 100%;
       flex-basis: auto;
+    }
+
+    .facilities-image{
+        margin-left: 3%;
     }
     
     .space-image {
