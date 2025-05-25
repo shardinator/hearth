@@ -217,7 +217,7 @@
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: rgba(0, 0, 0, 1);
+    color: rgba(121, 2, 255, 1);
   }
   
   .facility-description {
