@@ -6,7 +6,7 @@
         src="/images/Hearth_Logo__Left__Balloons.png" 
         alt="Hearth Logo"
       />
-      
+    
       <!-- Title Section -->
       <div class="title-section">
         <h1 class="main-title">Space to Rest</h1>
@@ -21,14 +21,13 @@
         
         <p class="feature-text">
           A key feature is that if residents don't have money to pay the fees they 
-          can use the <a href='http://lendy.me' target="_blank">Lendy Pay</a> 
-          system to pay for as many meals and days of 
+          can use low-interest income-contingent loans to pay for as many meals and days of 
           accommodation as they need/want.
         </p>
 
         <p class="impact-text">
           This means that anyone can afford to stay at a Hearth space and this has 
-          a meaningful impact on addressing housing shortages and hunger.
+          a meaningful impact on addressing housing shortages and nutrition.
         </p>  
       </div>      
       <!-- Facilities Section -->
@@ -50,7 +49,7 @@
                   Small hotel style rest spaces that include:
                 </div>
                 <ul class="facility-features">
-                  <li>Single bed</li>
+                  <li>Bed</li>
                   <li>Toilet, shower, sink</li>
                   <li>Storage space</li>
                   <li>Desk</li>
@@ -60,7 +59,7 @@
               <div class="facility-item">
                 <div class="facility-name">Lounges</div>
                 <div class="facility-description">
-                  Spaces to rest and relax, as well as read. A selection of books and 
+                  Community spaces to rest and relax, as well as read. A selection of books and 
                   periodicals will be available.
                 </div>
               </div>
@@ -68,7 +67,7 @@
               <div class="facility-item">
                 <div class="facility-name">CoWorking</div>
                 <div class="facility-description">
-                  Desks and spaces for work or study.
+                  COmmunity desks and spaces for work or study.
                 </div>
               </div>
               
@@ -76,7 +75,7 @@
                 <div class="facility-name">Storage</div>
                 <div class="facility-description">
                   Additional place to keep extra personal items if they don't fit in 
-                  the cubby's storage space.
+                  the room's storage space.
                 </div>
               </div>
             </div>
