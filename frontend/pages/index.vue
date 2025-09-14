@@ -1,10 +1,8 @@
 <template>
     <div class="hearth-home">
       <!-- Logo -->
-      <img 
-        class="logo" 
-        src="/images/Hearth_Logo__Left__Balloons.png" 
-        alt="Hearth Logo"
+      <img class="logo" 
+        src="/images/Hearth_Logo__Left__Balloons.png" alt="Hearth Logo"
       />
     
       <!-- Title Section -->
@@ -20,7 +18,7 @@
         
         <p class="feature-text">
           A key feature is that if residents don't have money to pay the fees they 
-          can use a low-interest income-contingent loan to pay for as many meals and days of 
+          can use a low-interest income contingent loan to pay for as many meals and days of 
           accommodation as they need/want.
         </p>
 
@@ -56,6 +54,8 @@
                 </ul>
               </div>              
               
+            </div>
+            
             <div class="facilities-image">
               <img src="/images/Hearth_Space__Smaller.png"
                 alt="Hearth Space Interior" class="space-image"/>
@@ -133,7 +133,7 @@
   }
   
   .main-title {
-    margin: 0 10% 0 10%;
+    margin: 20px 10% 0 10%;
     color: rgba(121, 2, 255, 1);
     font-size: 52px;
     width: 80%;
