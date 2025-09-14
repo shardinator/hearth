@@ -9,24 +9,23 @@
     
       <!-- Title Section -->
       <div class="title-section">
-        <h1 class="main-title">Space to Rest</h1>
+        <h1 class="main-title">A Place to Rest</h1>
       </div>
       
       <!-- Content Section -->
       <div class="content-section">
         <p class="intro-text">
-          Hearth is a for-profit venture that builds community spaces dedicated to 
-          providing fresh meals and comfortable rest spaces.
+          Hearth builds low-cost, easily accessible short and medium-term accomodation.
         </p>
         
         <p class="feature-text">
           A key feature is that if residents don't have money to pay the fees they 
-          can use low-interest income-contingent loans to pay for as many meals and days of 
+          can use a low-interest income-contingent loan to pay for as many meals and days of 
           accommodation as they need/want.
         </p>
 
         <p class="impact-text">
-          This means that anyone can afford to stay at a Hearth space and this has 
+          This means that anyone can afford to stay at a Hearth location and this has 
           a meaningful impact on addressing housing shortages and nutrition.
         </p>  
       </div>      
@@ -39,47 +38,24 @@
               <div class="facility-item">
                 <div class="facility-name">Meals</div>
                 <div class="facility-description">
-                  Low cost healthy meals for breakfast, lunch as well as dinner.
+                  Low-cost, healthy meals for breakfast, lunch and dinner.
                 </div>
               </div>
               
               <div class="facility-item">
-                <div class="facility-name">Cubbies</div>
+                <div class="facility-name">Accomodation</div>
                 <div class="facility-description">
-                  Small hotel style rest spaces that include:
+                  Small studio apartments that include:
                 </div>
                 <ul class="facility-features">
                   <li>Bed</li>
                   <li>Toilet, shower, sink</li>
-                  <li>Storage space</li>
+                  <li>Storage</li>
                   <li>Desk</li>
+                  <li>Kitchenette</li>
                 </ul>
-              </div>
+              </div>              
               
-              <div class="facility-item">
-                <div class="facility-name">Lounges</div>
-                <div class="facility-description">
-                  Community spaces to rest and relax, as well as read. A selection of books and 
-                  periodicals will be available.
-                </div>
-              </div>
-              
-              <div class="facility-item">
-                <div class="facility-name">CoWorking</div>
-                <div class="facility-description">
-                  COmmunity desks and spaces for work or study.
-                </div>
-              </div>
-              
-              <div class="facility-item">
-                <div class="facility-name">Storage</div>
-                <div class="facility-description">
-                  Additional place to keep extra personal items if they don't fit in 
-                  the room's storage space.
-                </div>
-              </div>
-            </div>
-            
             <div class="facilities-image">
               <img src="/images/Hearth_Space__Smaller.png"
                 alt="Hearth Space Interior" class="space-image"/>
