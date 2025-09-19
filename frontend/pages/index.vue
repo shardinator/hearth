@@ -71,7 +71,7 @@
   export default {
     name: 'HearthHome',
     mounted() {
-        document.title = 'Hearth | Space to Rest';
+        document.title = 'Hearth | A Place to Rest';
     },
     data() {
       return {
