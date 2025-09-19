@@ -6,6 +6,13 @@ export default defineNuxtConfig({
   devServer: {
     port: 3000
   },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/images/HearthLogoIconRounded.png' }
+      ]
+    }
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',

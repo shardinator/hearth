@@ -62,6 +62,8 @@
             </div>
           </div>
         </div>  
+    
+      <footer class="footer">© Copyright 2025</footer>
     </div>
   </template>
   
@@ -69,17 +71,6 @@
   export default {
     name: 'HearthHome',
     mounted() {
-        // Remove any existing favicon
-        const existingFavicon = document.querySelector('link[rel="icon"]') || 
-                            document.querySelector('link[rel="shortcut icon"]');
-        if (existingFavicon) {
-        existingFavicon.remove();
-        }        
-        // Set empty favicon to prevent browser from looking for one
-        const link = document.createElement('link');
-        link.rel = 'icon';
-        link.href = 'data:,';
-        document.head.appendChild(link);
         document.title = 'Hearth | Space to Rest';
     },
     data() {
@@ -224,6 +215,15 @@
     height: 449px;
     max-width: 100%;
     height: auto;
+  }
+
+  .footer {
+    width: 80%;
+    margin: 40px 10%;
+    padding: 10px 5px;
+    color: #777;
+    font-size: 14px;
+    border-top: 1px solid #eaeaea;
   }
   
   /* Theme classes for potential future use */
